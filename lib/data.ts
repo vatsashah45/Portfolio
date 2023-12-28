@@ -36,28 +36,49 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    companyName: "EventDesk",
+    title: "Web Developer Intern",
+    location: "Montreal, Canada",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Built localized cross-platform Web application for leasing event spaces by using the MERNG Stack (MongoDB, Express, ReactJS, NodeJS and GraphQL) and React-Native. Designed and created the User Login page and the Venue Management page. Built and integrated GraphQL based API’s and NodeJS microservices. Maintained and improved the DevOps pipelines to buid and deploy the applications to AWS Cloud.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "January 2022 - April 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    companyName: "nventive",
+    title: "Mobile App Developer Intern",
+    location: "Montreal, Canada",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Contributed to the development of the MoreRewards cross-platform (iOS, Android, UWP) mobile application in .NET (C#) and XAML (Xamarin). Designed and created the Home Page, the Offers Page and the Maps. Implemented custom animations and transitions to flex containers and forms.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "May 2022 - August 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    companyName: "Uno Platform",
+    title: "Software Developer Intern",
+    location: "Montreal, Canada",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Led the team of interns to build TubePlayer - a fully functional YouTube app rebuilt on Xamarin and optimized for performance and user experience. Developed app's video playback feature, including integration with the YouTube Data API to retrieve and display videos. Implemented the search functionality with filters for video type, upload date, and duration. And also implemented the loading, error, and empty search pages.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "January 2023 - April 2023",
+  },
+  {
+    companyName: "Microsoft",
+    title: "Software Developer Intern",
+    location: "Montreal, Canada",
+    description:
+    "OpenAI: Optimized the GPT-4 plugins using Langchain to allow the bot to automatically select the appropriate tool in response to user inputs. NLU Tool: Implemented the entire UI of the app. Designed and implemented dynamic filtering and sorting functionalities for the results page and developed system that automatically changes filtering options according to the user inputted file. Wrote a Python script that allowed users to download the results as a .trsX file from a .xlsx file. o Reduced project runtime by 65% through the implementation of Singleton threading.",
+    icon: React.createElement(FaReact),
+    date: "May 2023 - August 2023",
+  },
+  {
+    companyName: "Uno Platform",
+    title: "Software Developer Intern",
+    location: "Montreal, Canada",
+    description:
+    "Uno Platform",
+    icon: React.createElement(FaReact),
+    date: "September 2023 - December 2023",
   },
 ] as const;
 

@@ -47,11 +47,11 @@ export default function About() {
 
     <SectionHeading>About Me</SectionHeading>
     <p className="mb-3">
-      I am a Computer Science student at Concordia University with a passion for software development. My journey includes internships at notable companies like Microsoft, UNO Platform, and Nventive, where I honed my skills in various programming languages and technologies. I particularly enjoy <span className="italic">building and optimizing web and mobile applications</span>. My expertise lies in <span className="font-medium">C#, .NET, React, Node.js, and mobile app development</span>. I thrive on challenges and <span className="underline">love</span> solving complex problems through code. Currently, I am seeking a <span className="font-medium">full-time role</span> where I can contribute and grow as a software developer.
+      I am a Computer Science graduate from Concordia University. My journey includes internships at notable companies like Microsoft, UNO Platform, and Nventive, where I honed my skills in various programming languages and technologies. I particularly enjoy <span className="italic">building and optimizing web and mobile applications</span>. My expertise lies in <span className="font-medium">.NET, React, TypeScript Node.js, and mobile app development</span>. I thrive on challenges and <span className="underline">love</span> solving complex problems through code. Currently, I am seeking a <span className="font-medium">full-time role</span> where I can contribute and grow as a software developer.
     </p>
 
     <p>
-      When not coding, I lead and organize large-scale events like ConUHacks, a testament to my <span className="italic">leadership and organizational skills</span>. My hobbies include <span className="font-medium">exploring new technologies, gaming, and engaging in creative projects</span>. I'm always eager to <span className="font-medium">learn and grow</span> both professionally and personally.
+      When not coding, I lead and organize large-scale events like ConUHacks, a testament to my <span className="italic">leadership and organizational skills</span>. My hobbies include <span className="font-medium">exploring new technologies, working out, and engaging in creative projects</span>. I'm always eager to <span className="font-medium">learn and grow</span> both professionally and personally.
     </p>
     </motion.section>
   );
