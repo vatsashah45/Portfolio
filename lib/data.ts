@@ -36,7 +36,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    companyName: "EventDesk",
+    companyName: "SallePrivee",
     title: "Web Developer Intern",
     location: "Montreal, Canada",
     description:
@@ -76,7 +76,7 @@ export const experiencesData = [
     title: "Software Developer",
     location: "Montreal, Canada",
     description:
-    "Developed the Single Project feature of Uno Platform, creating a unified project structure that targets multiple platforms (iOS, Android, macOS, Windows, WebAssembly, Linux), streamlining development and maintenance process for cross-platform applications. Improved the navigation of Uno Platform apps by optimizing the routing logic, resulting in improved performance and user experience. Collaborated with cross-functional teams to ensure seamless integration of new features and bug fixes.",
+    "Developed the Single Project feature of Uno Platform, creating a unified project that targets multiple platforms (iOS, Android, macOS, Windows, WebAssembly, Linux), streamlining development and maintenance process for cross-platform applications. Designed and implemented the UI & backend for a License Manager system, generating licenses, offering free trials, and transitioning users to a paid subscription model with dynamic validation and feature management for free and premium access. Improved the navigation of Uno apps by optimizing the routing logic, resulting in improved performance and user experience. Collaborated with cross-functional teams to ensure seamless integration of new features and bug fixes.",
     icon: React.createElement(FaReact),
     date: "September 2023 - Present",
   },
