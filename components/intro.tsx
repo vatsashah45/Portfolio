@@ -17,18 +17,15 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="relative mb-32 flex flex-col items-center justify-center gap-10 px-4 sm:flex-row sm:gap-16"
+      className="relative mb-2 flex flex-col items-center justify-center gap-10 px-4 sm:flex-row sm:gap-16"
     >
-      {/* ––––– Avatar card ––––– */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 90, damping: 12 }}
         className="group relative isolate h-48 w-48 flex-shrink-0 rounded-2xl"
       >
-        {/* blurred glow */}
         <span className="absolute inset-0 -z-10 rounded-2xl bg-gradient-to-br from-brand-pink/40 via-brand-purple/30 to-brand-orange/30 blur-[50px] opacity-60 transition duration-500 group-hover:opacity-90" />
-        {/* glass card */}
         <div className="h-full w-full overflow-hidden rounded-2xl backdrop-blur-sm bg-white/20 dark:bg-gray-800/30 ring-1 ring-inset ring-white/40 dark:ring-gray-600/40">
           <Image
             src="/vatsa_pfp.jpg"
@@ -41,9 +38,7 @@ export default function Intro() {
         </div>
       </motion.div>
 
-      {/* ––––– Text & actions ––––– */}
       <div className="max-w-xl text-center sm:text-left">
-        {/* headline */}
         <motion.h1
           initial={{ opacity: 0, x: 60 }}
           animate={{ opacity: 1, x: 0 }}
@@ -53,7 +48,6 @@ export default function Intro() {
           Hello, I’m&nbsp;
           <span className="relative inline-block">
             Vatsa
-            {/* animated accent underline */}
             <motion.span
               layoutId="headline-underline"
               className="absolute -bottom-1 left-0 h-1 w-full origin-left scale-x-0 bg-gradient-to-r from-brand-pink via-brand-purple to-brand-orange"
@@ -75,10 +69,9 @@ export default function Intro() {
           </span>
           &nbsp;of experience, passionate about&nbsp;
           <span className="italic">cross-platform apps</span>, currently freezing
-          at&nbsp;-25 °C in Montréal. 🌨️
+          at&nbsp;-25 °C in Montreal ❄️
         </motion.p>
 
-        {/* call-to-actions */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -112,7 +105,6 @@ export default function Intro() {
             </span>
           </a>
 
-          {/* social icons */}
           <div className="flex gap-3">
             <a
               href="https://www.linkedin.com/in/vatsashah01/"
