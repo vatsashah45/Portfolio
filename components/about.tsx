@@ -20,7 +20,7 @@ export default function About() {
 
     <SectionHeading>About Me</SectionHeading>
     <p className="mb-3">
-      I am a Software Developer working remotely from -25°C Montreal, Canada. Over the past half decade, I graduated from Concordia University with internships at notable companies like Microsoft, UNO Platform, nventive, and EventDesk. Since January of this year, I've been working at Uno Platform, building a platform for developers to build cross-platform apps with ease.
+      I graduated from Concordia University with internships at notable companies like Microsoft, Uno Platform, nventive, and SallePrivee. Since January of 2024, I've been working at Uno Platform, building a platform for developers to build cross-platform apps with ease.
     </p>
 
     <p>
