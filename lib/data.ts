@@ -2,10 +2,13 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-// Add my own project images here
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import redditESClassifier from "@/public/RedditESClassifier.png";
+import webCrawler from "@/public/WebCrawler.png";
+import spotifyExplicitnessPredictor from "@/public/SpotifyExplicitnessPredictor.png";
+import rushHour from "@/public/RushHour.png";
+import dropoutNeuralNets from "@/public/DropoutNeuralNets.png";
+import eternity from "@/public/Eternity.png";
+import beastFit from "@/public/BeastFit.png";
 
 export const links = [
   {
@@ -88,56 +91,56 @@ export const projectsData = [
     description:
       "Machine learning-based tool that analyzes and categorizes emotions and sentiments. It identifies various emotional states like happiness or sadness from textual data, useful in applications such as social media analysis and customer feedback.",
     tags: ["Python", "NLP"],
-    imageUrl: corpcommentImg,
+    imageUrl: redditESClassifier,
   },
   {
     title: "Web Crawler",
     description:
       "This program crawls a website and analyzes the text of the pages it visits using k-means clustering and sentiment analysis.",
     tags: ["Python"],
-    imageUrl: rmtdevImg,
+    imageUrl: webCrawler,
   },
   {
     title: "Spotify Explicitness Predictor",
     description:
       "Application for predicting the explicitness of songs on Spotify. The code uses machine learning algorithms to classify songs as either explicit or non-explicit.",
     tags: ["Python", "NLP"],
-    imageUrl: rmtdevImg,
+    imageUrl: spotifyExplicitnessPredictor,
   },
   {
     title: "Rush Hour Game",
     description:
       "This application implements various search algorithms to solve the Rush Hour game.",
     tags: ["Python", "NLP"],
-    imageUrl: rmtdevImg,
+    imageUrl: rushHour,
   },
   {
     title: "HFESTS",
     description:
       "The Health Facility Employee Status Tracking System (HFESTS) is a database system developed to help healthcare facilities keep track of their employees’ health status during the COVID-19 pandemic.",
     tags: ["PHP", "HTML", "SQL", "CSS"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: rushHour,
   },
   {
     title: "Dropout in Neural Networks",
     description:
       "This program implements dropout in neural networks on multiple datasets. Dropout is a regularization technique that can prevent overfitting in neural networks by randomly dropping out some neurons during training.",
     tags: ["Python"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: dropoutNeuralNets,
   },
   {
     title: "Eternity",
     description:
       "ETERNITY is a scientific calculator that can compute certain complex special functions.",
     tags: ["Python"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: eternity,
   },
   {
     title: "BeastFit",
     description:
       "A full stack website built as a concept for a montreal-based fitness company.",
     tags: ["PHP", "JavaScript", "HTML", "SQL", "CSS"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: beastFit,
   },
 ] as const;
 
