@@ -63,11 +63,29 @@ export default function Experience() {
                     className="overflow-hidden pb-6"
                   >
                     {item.bulletPoints && (
-                      <ul className="list-disc space-y-1 pl-5 text-gray-700 dark:text-gray-200">
+                      <motion.ul
+                        initial="collapsed"
+                        animate="open"
+                        exit="collapsed"
+                        variants={{
+                          open: { transition: { staggerChildren: 0.05, delayChildren: 0.05 } },
+                          collapsed: {},
+                        }}
+                        className="list-disc space-y-1 pl-5"
+                      >
                         {item.bulletPoints.map((bp, idx) => (
-                          <li key={idx}>{bp}</li>
+                          <motion.li
+                            key={idx}
+                            variants={{
+                              open: { opacity: 1, x: 0 },
+                              collapsed: { opacity: 0, x: -10 },
+                            }}
+                            transition={{ duration: 0.25 }}
+                          >
+                            {bp}
+                          </motion.li>
                         ))}
-                      </ul>
+                      </motion.ul>
                     )}
                   </motion.div>
                 )}
