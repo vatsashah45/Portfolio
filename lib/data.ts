@@ -42,8 +42,11 @@ export const experiencesData = [
     companyName: "SallePrivee",
     title: "Web Developer Intern",
     location: "Montreal, Canada",
-    description:
-      "Built localized cross-platform Web application for leasing event spaces by using the MERNG Stack (MongoDB, Express, ReactJS, NodeJS and GraphQL) and React-Native. Designed and created the User Login page and the Venue Management page. Built and integrated GraphQL based API’s and NodeJS microservices. Maintained and improved the DevOps pipelines to buid and deploy the applications to AWS Cloud.",
+    bulletPoints: [
+      "Built a localized cross-platform Web application for leasing event spaces by using the MERNG Stack (MongoDB, Express, ReactJS, NodeJS and GraphQL) and React-Native.",
+      "Developed the UI, built and integrated GraphQL API’s and NodeJS microservices.",
+      "Maintained and improved the DevOps pipelines to buid and deploy the applications to AWS Cloud.",
+    ],
     icon: React.createElement(LuGraduationCap),
     date: "January 2022 - April 2022",
   },
@@ -51,8 +54,11 @@ export const experiencesData = [
     companyName: "nventive",
     title: "Mobile App Developer Intern",
     location: "Montreal, Canada",
-    description:
-      "Contributed to the development of the MoreRewards cross-platform (iOS, Android, UWP) mobile application in .NET (C#) and XAML (Xamarin). Designed and created the Home Page, the Offers Page and the Maps. Implemented custom animations and transitions to flex containers and forms.",
+    bulletPoints: [
+      "Contributed to the development of the MoreRewards cross-platform application using Xamarin.Forms (C# & XAML).",
+      "Built key screens (Home, Offers, Map), incorporating real-time data displays and location-based functionality.",
+      "Implemented custom animations and transitions to flex containers and forms.",
+    ],
     icon: React.createElement(CgWorkAlt),
     date: "May 2022 - August 2022",
   },
@@ -60,8 +66,11 @@ export const experiencesData = [
     companyName: "Uno Platform",
     title: "Software Developer Intern",
     location: "Montreal, Canada",
-    description:
-      "Led the team of interns to build TubePlayer - a fully functional YouTube app rebuilt on Xamarin and optimized for performance and user experience. Developed app's video playback feature, including integration with the YouTube Data API to retrieve and display videos. Implemented the search functionality with filters for video type, upload date, and duration. And also implemented the loading, error, and empty search pages.",
+    bulletPoints: [
+      "Led the team of interns to build TubePlayer - a YouTube app rebuilt on Xamarin and optimized for performance and user experience.",
+      "Developed app's video playback feature, including integration with the YouTube Data API to retrieve and display videos.",
+      "Implemented the search functionality with filters and developed the loading, error, and empty search pages.",
+    ],
     icon: React.createElement(FaReact),
     date: "January 2023 - April 2023",
   },
@@ -69,8 +78,12 @@ export const experiencesData = [
     companyName: "Microsoft",
     title: "Software Developer Intern",
     location: "Montreal, Canada",
-    description:
-    "Developed a GPT utterance generator. Implemented both frontend and backend functionalities, including dynamic filtering and sorting of the results. Designed and developed a system to automatically adjust filtering options based on user input files. Created a Python script to convert .xslx files to .trsX files for user downloads. Reduced project runtime by 35%.",
+    bulletPoints: [
+      "Developed end-to-end functionality of a GPT utterance generator to support conversational AI scenarios.",
+      "Built a system to automatically adjust filtering options based on user input files, and dynamically filter and sort the results.",
+      "Created a Python-based automation tool to convert .xlsx files to .trsx, streamlining user downloads and data workflows.",
+      "Optimized project performance by reducing the runtime by 35%.",
+    ],
     icon: React.createElement(FaReact),
     date: "May 2023 - August 2023",
   },
@@ -78,8 +91,13 @@ export const experiencesData = [
     companyName: "Uno Platform",
     title: "Software Developer",
     location: "Montreal, Canada",
-    description:
-    "Developed the Single Project feature of Uno Platform, creating a unified project that targets multiple platforms (iOS, Android, macOS, Windows, WebAssembly, Linux), streamlining development and maintenance process for cross-platform applications. Designed and implemented the UI & backend for a License Manager system, generating licenses, offering free trials, and transitioning users to a paid subscription model with dynamic validation and feature management for free and premium access. Improved the navigation of Uno apps by optimizing the routing logic, resulting in improved performance and user experience. Collaborated with cross-functional teams to ensure seamless integration of new features and bug fixes.",
+    bulletPoints: [
+      "Developed the Hot Design tool, a visual designer for cross-platform .NET applications (iOS, Android, macOS, Windows, WebAssembly, Linux) that transforms the running app into an interactive design surface, accessible from any IDE on any OS.",
+      "Designed and implemented the complete UI, created the API’s and backend logic for a License Manager system - including license generation, dynamic trial handling, feature gating, and automated validity checks for free and premium tiers.",
+      "Integrated telemetry across all Uno Platform tools for user behaviour tracking and analysis.",
+      "Published official documentation and sample applications (like Chefs) to demonstrate Uno Platform features.",
+      "Collaborated with cross-functional teams to ensure seamless integration of new features and bug fixes.",
+    ],
     icon: React.createElement(FaReact),
     date: "September 2023 - Present",
   },

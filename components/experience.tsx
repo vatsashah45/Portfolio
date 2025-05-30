@@ -62,9 +62,13 @@ export default function Experience() {
                     transition={{ duration: 0.25, ease: "easeOut" }}
                     className="overflow-hidden pb-6"
                   >
-                    <p className="text-gray-700 dark:text-gray-200 whitespace-pre-line">
-                      {item.description}
-                    </p>
+                    {item.bulletPoints && (
+                      <ul className="list-disc space-y-1 pl-5 text-gray-700 dark:text-gray-200">
+                        {item.bulletPoints.map((bp, idx) => (
+                          <li key={idx}>{bp}</li>
+                        ))}
+                      </ul>
+                    )}
                   </motion.div>
                 )}
               </AnimatePresence>
