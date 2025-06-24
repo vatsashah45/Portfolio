@@ -1,5 +1,7 @@
 "use client";
 
+import useSWR from "swr";
+const fetcher = (url: string) => fetch(url).then((r) => r.json());
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -12,6 +14,35 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  const { data: weather, error } = useSWR<{ temp: number }>("/api/weather", fetcher);
+  const temp = weather?.temp;
+
+  let label = "";
+  let emoji = "";
+  if (temp != null) {
+    if (temp <= 0) {
+      label = "freezing";
+      emoji = "❄️";
+    } else if (temp <= 10) {
+      label = "chilly";
+      emoji = "🥶";
+    } else if (temp <= 20) {
+      label = "cozy";
+      emoji = "🍂";
+    } else if (temp <= 30) {
+      label = "warm";
+      emoji = "☀️";
+    } else {
+      label = "scorching";
+      emoji = "🔥";
+    }
+  }
+
+  const weatherText = error
+    ? "— °C in Montreal ❓"
+    : typeof temp === "undefined"
+    ? "loading weather…"
+    : `currently coding from ${label} ${temp} °C Montreal ${emoji}`;
 
   return (
     <section
@@ -68,8 +99,8 @@ export default function Intro() {
             2&nbsp;years
           </span>
           &nbsp;of experience, passionate about&nbsp;
-          <span className="italic">cross-platform apps</span>, currently freezing
-          at&nbsp;-25 °C in Montreal ❄️
+          <span className="italic">cross-platform apps</span>,{' '}
+          {weatherText}
         </motion.p>
 
         <motion.div
