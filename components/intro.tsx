@@ -41,8 +41,8 @@ export default function Intro() {
   const weatherText = error
     ? "— °C in Montreal ❓"
     : typeof temp === "undefined"
-    ? "loading weather…"
-    : `currently coding from ${label} ${temp} °C Montreal ${emoji}`;
+      ? "loading weather…"
+      : `currently coding from ${label} ${temp} °C Montreal ${emoji}`;
 
   return (
     <section
