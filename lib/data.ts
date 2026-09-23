@@ -43,13 +43,13 @@ export const links = [
 
 export const experiencesData = [
   {
-    companyName: "SallePrivee",
-    title: "Web Developer Intern",
+    companyName: "Salle Privée",
+    title: "Full Stack Developer Intern",
     location: "Montreal, Canada",
     bulletPoints: [
       "Built a localized cross-platform Web application for leasing event spaces by using the MERNG Stack (MongoDB, Express, ReactJS, NodeJS and GraphQL) and React-Native.",
       "Developed the UI, built and integrated GraphQL API’s and NodeJS microservices.",
-      "Maintained and improved the DevOps pipelines to buid and deploy the applications to AWS Cloud.",
+      "Maintained and improved the DevOps pipelines to build and deploy the applications to AWS Cloud.",
     ],
     icon: React.createElement(LuGraduationCap),
     date: "January 2022 - April 2022",
@@ -83,7 +83,7 @@ export const experiencesData = [
     title: "Software Developer Intern",
     location: "Montreal, Canada",
     bulletPoints: [
-      "Developed end-to-end functionality of a GPT utterance generator to support conversational AI scenarios.",
+      "Worked on conversational AI for Microsoft Healthcare, including end-to-end development of a GPT utterance generator.",
       "Built a system to automatically adjust filtering options based on user input files, and dynamically filter and sort the results.",
       "Created a Python-based automation tool to convert .xlsx files to .trsx, streamlining user downloads and data workflows.",
       "Optimized project performance by reducing the runtime by 35%.",
@@ -93,9 +93,20 @@ export const experiencesData = [
   },
   {
     companyName: "Uno Platform",
+    title: "Software Developer Intern",
+    location: "Montreal, Canada",
+    bulletPoints: [
+      "Returned to Uno Platform as a software developer intern before joining full-time in January 2024.",
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "September 2023 - December 2023",
+  },
+  {
+    companyName: "Uno Platform",
     title: "Software Developer",
     location: "Montreal, Canada",
     bulletPoints: [
+      "Core maintainer of the open-source Uno Platform framework.",
       "Developed the Hot Design tool, a visual designer for cross-platform .NET applications (iOS, Android, macOS, Windows, WebAssembly, Linux) that transforms the running app into an interactive design surface, accessible from any IDE on any OS.",
       "Designed and implemented the complete UI, created the API’s and backend logic for a License Manager system - including license generation, dynamic trial handling, feature gating, and automated validity checks for free and premium tiers.",
       "Integrated telemetry across all Uno Platform tools for user behaviour tracking and analysis.",
@@ -103,7 +114,18 @@ export const experiencesData = [
       "Collaborated with cross-functional teams to ensure seamless integration of new features and bug fixes.",
     ],
     icon: React.createElement(FaReact),
-    date: "September 2023 - Present",
+    date: "January 2024 - Present",
+  },
+  {
+    companyName: "Valiron",
+    title: "Co-Founder & CTO",
+    location: "Montreal, Canada",
+    bulletPoints: [
+      "Co-founded Valiron and lead its technical development, building tools for API providers to evaluate incoming AI agents and control access.",
+      "Built the Valiron SDK for integrating agent trust and access decisions into applications.",
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "January 2026 - Present",
   },
 ] as const;
 

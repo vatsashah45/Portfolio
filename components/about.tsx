@@ -1,35 +1,22 @@
-"use client";
-
-import React from "react";
-import SectionHeading from "./section-heading";
-import { motion } from "framer-motion";
-import { useSectionInView } from "@/lib/hooks";
-
 export default function About() {
-  const { ref } = useSectionInView("About");
-
   return (
-    <motion.section
-      ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
-      initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.175 }}
-      id="about"
-    >
-
-    <SectionHeading>About Me</SectionHeading>
-    <p className="mb-3">
-      I graduated from Concordia University with internships at Microsoft, Uno Platform, nventive, and SallePrivee. Since January of 2024, I've been working at Uno Platform, building a framework for developers to build cross-platform applications with ease.
-    </p>
-
-    <p>
-    <span className="italic"> When I'm not coding, </span> I like to organize or participate in hackathons, explore new technologies, work out, and travel.
-    </p>
-
-    <p>
-    <span className="underline">Fun fact:</span> I have visited 9+ countries in the last 3 years.
-    </p>
-    </motion.section>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I studied Computer Science at Concordia University from September 2019
+        to December 2023, with internships at Microsoft, Uno Platform, nventive,
+        and Salle Privée. At Microsoft, I worked on conversational AI for healthcare.
+        Today, I split my work between building Valiron and contributing to Uno Platform.
+      </p>
+      <p>
+        I’m a former president of HackConcordia and a hackathon organizer, judge,
+        and advisor. I’ve participated in Monad’s accelerator, Foundry NYC 2026,
+        and the Superteam USA accelerator, and I’m a member of Superteam Canada.
+      </p>
+      <p>
+        Away from the keyboard, I like working out and traveling. I have visited
+        more than nine countries — and there is always somewhere new on the list.
+      </p>
+    </section>
   );
 }
